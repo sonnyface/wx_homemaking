@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/yuesao/yuesao",
+    "pages/yuyingshi/yuyingshi",
+    "pages/laorenhuli/laorenhuli",
+    "pages/jujiabaojie/jujiabaojie",
+    "pages/baojiegongshi/baojiegongshi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "郑州晓伟家政服务有限公司",
+    "navigationBarTextStyle": "black"
+  }
+}

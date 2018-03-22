@@ -1,0 +1,57 @@
+<view class="container ">
+  <view class="banner">     
+      <image class="bannerImg" backgrond-size="100%" src="../../image/975e3ee3a0cd42e1ae300a3f9c3d9470.jpeg"></image>
+  </view>  
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">育婴师服务内容：</text>
+  </view>
+  <view class="content">
+    <view class="text">
+      <text>新生儿服务</text>
+      <text>1 ) 婴儿喂养：协助母乳喂养；冲调奶粉；给婴儿添加辅食；做富有营养的儿童餐。
+2 ) 起居照顾：照顾孩子睡觉；清洗婴幼儿的衣物、餐具和打扫居室卫生。
+3 ) 早期教育：阅读图书并形象生动地给婴幼儿讲故事，唱儿歌；用普通话与婴幼儿进行经常地、积极的语言交流；根据儿童神经发育指导选择玩具并与孩子游戏，进行潜能开发训练。
+4 ) 行为培养：培养孩子良好的生活习惯（大小便、卫生、吃饭等）；锻炼孩子与外界交流；
+5 ) 婴儿健康：掌握婴幼儿常见病的预防和治疗常识，提供健康建议。
+6 ) 其他：在孩子安全状态下可做一些简单家务
+</text>
+    </view> 
+       
+  </view>
+  <!--列表 详情  -->
+ <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+
+</view>

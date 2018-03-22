@@ -1,0 +1,59 @@
+<view class="container ">
+  <view class="banner">     
+      <image class="bannerImg" backgrond-size="100%" src="../../image/2ad26c2defb14f15b7c4d678889c22dd.jpg"></image>
+  </view>  
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">住家保姆服务内容：</text>
+  </view>
+  <view class="content">
+    <view class="text">
+      <text></text>
+      <text>为了迎合现代家庭的需求，通过专门的培训，从事家庭餐的制作、家庭居室清洁与美化、洗涤衣物、家庭照料等日常家庭事务的管理工作，成为提高生活质量的贴心帮手。</text>
+    </view> 
+    <view class="text">
+      <text>具体服务项目：</text>
+      <text>1 ) 制作一日三餐。
+2 ) 居室保洁：负责打扫家庭卫生，清洗、晾晒、熨烫、整理衣物,是您的家庭保健卫士。
+3 ) 洗涤衣物。
+4 ) 对餐具和卫生用具消毒。
+5 ) 负责孩子的日常生活照顾，接送孩子上学，督促孩子读书，写作业。
+6 ) 家庭园艺，家居绿化、宠物照料、家电维护，家庭管理等其他事务。</text>
+    </view>    
+  </view>
+  <!--列表 详情  -->
+ <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+
+</view>

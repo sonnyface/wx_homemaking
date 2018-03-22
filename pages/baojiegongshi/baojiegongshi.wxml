@@ -1,0 +1,66 @@
+<view class="container ">
+  <view class="banner">     
+      <image class="bannerImg" backgrond-size="100%" src="../../image/c4c46815f1904f1389ade8d76539bc8a.gif"></image>
+  </view>  
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">公司保洁服务内容：</text>
+  </view>
+  <view class="content">
+    <view class="text">
+      <text>六色保洁布</text>
+      <text>分区使用更卫生首创六色保洁布，规范化分区域使用，不同颜色、不同材质的保洁布适用于不同区域，干湿分离、避免交叉污染，干净更卫生。</text>
+    </view> 
+    <view class="text">
+      <text>三重认证</text>
+      <text>人员与服务放心更可靠每位保洁人员，必须通过标准审核、三重认证方有机会正式上岗为您提 供优质服务。</text>
+    </view>  
+    <view class="text">
+      <text>统一培训</text>
+      <text>满分上岗更专业每位员工上岗前经过专业的培训、实操、考核；定期为员工进行在岗培训，持续提升服务技能。</text>
+    </view>
+    <view class="text">
+      <text>专注家庭服务</text>
+      <text>专业水准更放心乐家邦为了更好地服务于家庭用户，推出了乐洁士、乐居士、乐福士、乐美士、乐阿姨、乐师傅等系列家庭服务产品，因为专一，所以专业。</text>
+    </view>
+    <view class="text">
+      <text>人性化管理</text>
+      <text>阿姨整体素质更高一周六天，一天8小时服务时间，乐家邦用更加人性化的机制保障阿姨休息权益，提高阿姨整体素质，提升阿姨对工作的优越感，吸引更多优秀人才进入家政服务行业。</text>
+    </view>  
+  </view>
+  <!--列表 详情  -->
+  <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+
+</view>

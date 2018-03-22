@@ -1,0 +1,90 @@
+<!--index.wxml-->
+<view class="container">
+<!--公司名字  -->
+<view class="head">
+  <view class="company">
+    <view class="name">
+      <text class="company-name">郑州晓伟家政服务有限公司</text>
+       <!-- <text class="information">服务类目：住家保姆、月嫂，育婴师。老人护理，居家保洁，保洁公司。</text>        -->
+    </view>   
+     <image class="userinfo-avatar" background-size="cover" mode="aspectFill" src="../../image/logo.jpg"></image>     
+  </view> 
+</view>
+<!--列表 详情  -->
+ <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+<!-- 服务类目 -->
+<view class="serveList">
+   <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">服务类目</text>
+  </view>
+  <view class="oul">
+      <button class="listing" bindtap="pageTwo" data-id="1">住家保姆</button>
+      <button class="listing" bindtap="pageTwo" data-id="2">月嫂</button>
+      <button class="listing" bindtap="pageTwo" data-id="3">育婴师</button>
+      <button class="listing" bindtap="pageTwo" data-id="4">老人护理</button>
+      <button class="listing" bindtap="pageTwo" data-id="5">居家保洁</button>
+      <button class="listing" bindtap="pageTwo" data-id="6">保洁公司</button>
+
+  </view>
+
+</view>
+
+<!--公司简介-->
+<view class="jianjie">
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">公司简介</text>
+  </view>
+  <view class="gjWord">
+     <text class="txtWords" space="nbsp">   郑州晓伟家政服务有限公司成立于2012年，公司经历了5年的发展形成了现在的规模。 郑州晓伟家政服务有限公司是经工商局注册登记。本部的员工经过劳动部门考试合格、卫生部门体检合格，没有不良社会历史，确定其真实身份、三证齐全。
+  郑州晓伟家政服务有限公司的服务技能，让您放心、开心!是一家集保姆服务、月嫂服务、育婴服务、护理服务为一体的综合性家政服务企业。目前公司在岗保姆、月嫂、育婴师、等已达200多人。
+  我公司正加强对员工的专业化、标准化素质培训，为家庭和企业客户提供更优质、更高水平的系统服务。我公司目前开设的服务项目主要有:月嫂服务、育婴服务、老人护理等。
+  公司成立5年来,始终坚持“诚信经营，精心服务”的宗旨竭诚为广大市民朋友服务，5年来创造了零投诉、零损伤的行业奇迹，公司也以成熟的服务模式逐步发展壮大，家政服务要求有技术、细心、耐心，这样才能为您舒适安心的生活提供保障。</text>
+  </view>
+</view>
+<!--门店照片-->
+<view class="shopImg">
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/pic1.png"></image>
+    <text class="tit">门店照片</text>
+  </view>
+  <view class="plist">
+        <view class="item" wx:key wx:for="{{lists}}" >
+        <image class="item-img"  bindtap="previewImage"  mode="widthFix" src="{{item}}" data-src="{{item}}"></image>
+      </view> 
+  </view> 
+ </view>
+</view>

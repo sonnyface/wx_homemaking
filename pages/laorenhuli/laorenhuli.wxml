@@ -1,0 +1,53 @@
+<view class="container ">
+  <view class="banner">     
+      <image class="bannerImg" backgrond-size="100%" src="../../image/cc0286f238654c569483c50ddc66b14f.jpg"></image>
+  </view>  
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">月嫂服务内容：</text>
+  </view>
+  <view class="content">
+    <view class="text">
+       <text></text> 
+      <text> 1 ) 护理老人个人卫生、健康，按照老人饮食的基础原则，科学合理的进食，保证老人的营养需求,掌握老人起居特点，使老人安全舒适的生活。
+ 2 ) 给老人做饭、洗衣、做家务、哄老人开心、叮嘱老人吃药；
+ 3 ) 多推老人去室外晒太阳，吸收新鲜空气，多和老人聊天锻炼他的语言能力，多讲老人感兴趣的事情，勤给老人洗澡，洗头，剪指甲，老人开心，子女们才能放心，一定保证老人有个幸福的晚年</text>
+    </view> 
+    
+  </view>
+  <!--列表 详情  -->
+ <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+
+</view>

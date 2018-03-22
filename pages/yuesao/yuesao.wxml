@@ -1,0 +1,63 @@
+<view class="container ">
+  <view class="banner">     
+      <image class="bannerImg" backgrond-size="100%" src="../../image/df8e751c0a1045b2b187b95da7938d88.jpg"></image>
+  </view>  
+  <view class="gjtit">    
+    <image class="titImg" src="../../image/note.png"></image>
+    <text class="tit">月嫂服务内容：</text>
+  </view>
+  <view class="content">
+    <view class="text">
+      <text>新生儿服务</text>
+      <text>1 ) 新生儿科学喂养和辅助喂奶、喂水，培养宝宝合理规律的饮食习惯
+  2 ) 新生儿洗澡、清洁，根据实际情况给婴儿做抚触、被动操
+  3 ) 新生儿尿布、衣物、毛巾、奶瓶等用品用具消毒、清洗及整理
+  4 ) 新生儿测体温、观察大小便是否正常、黄疽观察、安抚婴儿哭闹、脐带消毒、预防接
+  5 ) 新生儿智力的启蒙教育和潜能开发</text>
+    </view> 
+    <view class="text">
+      <text>产妇服务</text>
+      <text>1 ) 卫生护理：观察产妇身体情况（主要是乳房、恶露、大小便），清洗、消毒产妇衣物，在产妇不能自理时帮助产妇擦洗身体,母婴室内卫生
+2 ) 乳房护理：帮助产妇清洗、热敷、通乳，减轻乳房胀痛，指导产妇正确的哺乳姿势
+3 ) 产后恢复：指导产妇做好产后恢复操
+4 ) 营养配餐：为产妇煲汤、做饭，合理安排产妇饮食，为产妇制作营养餐
+5 ) 心理指导：调解产妇心情，多与产妇语言沟通，交流育儿心得</text>
+    </view>  
+      
+  </view>
+  <!--列表 详情  -->
+ <view class="gjtit">        
+      <text class="tit" style="color:#888">联系方式</text>
+    </view>
+ <view class="alllist">
+  <view class="list" bindtap="getLocation">
+    <image class="l-icon" backgrond-size="100%" src="../../image/ads.png"></image>
+    <view class="l-add">
+      <text class="textAdd">郑州市二七区大学南路万达广场13号楼20层2018号</text>
+    </view> 
+     <image class="l-icon" backgrond-size="100%" src="../../image/right.png"></image>
+  </view>
+  <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall01">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add">0371-60305869 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view>
+   <view class="tel">
+     <view  class="telist" bindtap="makePhoneCall02">
+      <image class="l-icon" background-size="100%" src="../../image/phone.png"></image>
+      <text class="l-add"> 15890674178 </text>    
+      <image class="l-icon  q-icon" backgrond-size="100%" src="../../image/right.png"></image>
+     </view>      
+  </view> 
+   <view class="tel">
+     <view  class="telist" >
+      <image class="l-icon" background-size="100%" src="../../image/people.png"></image>
+      <text class="l-add">王经理 </text>
+     </view>      
+  </view> 
+  
+</view>
+
+</view>
